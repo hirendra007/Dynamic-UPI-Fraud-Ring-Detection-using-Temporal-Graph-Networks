@@ -1,0 +1,67 @@
+# ==============================================================================
+# .gitignore for Hybrid Real-Time Fraud Detection & Graph Analytics Pipeline
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets & Large Data Files (Ignore all CSV and Parquet binaries)
+*.csv
+*.parquet
+*.crc
+*.zip
+*.tar.gz
+
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+fraud-pipeline/data/raw/*
+!fraud-pipeline/data/raw/.gitkeep
+fraud-pipeline/data/processed/*
+!fraud-pipeline/data/processed/.gitkeep
+
+# Checkpoints & Streaming sinks
+**/checkpoints/
+**/flagged/*
+!**/flagged/.gitkeep
+
+# Spark ML Trained Models (Large binary forests & metadata)
+models/rf_fraud_model/
+fraud-pipeline/models/rf_fraud_model/
+
+# Hadoop & Native Binaries
+hadoop/
+
+# Docker volumes & persistent databases
+neo4j_data/
+**/neo4j_data/
+
+# Logs & Engine Metadata
+*.log
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Kaggle API Credentials
+kaggle.json
+.kaggle/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

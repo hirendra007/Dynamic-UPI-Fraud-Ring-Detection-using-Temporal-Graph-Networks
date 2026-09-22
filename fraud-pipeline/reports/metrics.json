@@ -1,0 +1,269 @@
+{
+    "dataset_summary": {
+        "total_records_cleaned": 283726,
+        "total_legitimate": 283253,
+        "total_fraud": 473,
+        "raw_fraud_percentage": 0.1667
+    },
+    "smote_resampling": {
+        "train_samples_before_smote": 226980,
+        "train_fraud_before_smote": 378,
+        "train_legit_before_smote": 226602,
+        "train_samples_after_smote": 453204,
+        "train_fraud_after_smote": 226602,
+        "train_legit_after_smote": 226602,
+        "test_samples_count": 56746,
+        "test_fraud_count": 95,
+        "test_legit_count": 56651
+    },
+    "model_evaluation": {
+        "model_type": "Spark MLlib RandomForestClassifier",
+        "num_trees": 100,
+        "max_depth": 10,
+        "training_duration_seconds": 182.04,
+        "area_under_roc": 0.9483,
+        "area_under_pr": 0.701,
+        "precision": 0.5205,
+        "recall": 0.8,
+        "f1_score": 0.6307,
+        "accuracy": 0.9984,
+        "confusion_matrix": {
+            "true_negatives": 56581,
+            "false_positives": 70,
+            "false_negatives": 19,
+            "true_positives": 76
+        },
+        "top_features": [
+            {
+                "feature": "V14",
+                "importance": 0.28321
+            },
+            {
+                "feature": "V10",
+                "importance": 0.18172
+            },
+            {
+                "feature": "V4",
+                "importance": 0.11678
+            },
+            {
+                "feature": "V12",
+                "importance": 0.10496
+            },
+            {
+                "feature": "V17",
+                "importance": 0.06904
+            }
+        ]
+    },
+    "graph_analytics": {
+        "total_accounts": 96419,
+        "total_transfers": 50007,
+        "top_hub_accounts": [
+            {
+                "account_id": "C141316671",
+                "in_degree": 5,
+                "out_degree": 0,
+                "total_degree": 5
+            },
+            {
+                "account_id": "C1973561066",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C577585418",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C371198185",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C2128665553",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C1180478961",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C1763889280",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C1462500732",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C650657798",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C2144015041",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C766950017",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C556281798",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C1739974332",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C1877976610",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            },
+            {
+                "account_id": "C1388182036",
+                "in_degree": 4,
+                "out_degree": 0,
+                "total_degree": 4
+            }
+        ],
+        "rings_detected_count": 7,
+        "sample_rings": [
+            {
+                "origin": "RING_ALPHA_01",
+                "hops": 4,
+                "accounts": [
+                    "RING_ALPHA_01",
+                    "RING_ALPHA_02",
+                    "RING_ALPHA_03",
+                    "RING_ALPHA_04",
+                    "RING_ALPHA_01"
+                ],
+                "volume": 1740000.0
+            },
+            {
+                "origin": "RING_ALPHA_02",
+                "hops": 4,
+                "accounts": [
+                    "RING_ALPHA_02",
+                    "RING_ALPHA_03",
+                    "RING_ALPHA_04",
+                    "RING_ALPHA_01",
+                    "RING_ALPHA_02"
+                ],
+                "volume": 1740000.0
+            },
+            {
+                "origin": "RING_ALPHA_03",
+                "hops": 4,
+                "accounts": [
+                    "RING_ALPHA_03",
+                    "RING_ALPHA_04",
+                    "RING_ALPHA_01",
+                    "RING_ALPHA_02",
+                    "RING_ALPHA_03"
+                ],
+                "volume": 1740000.0
+            },
+            {
+                "origin": "RING_ALPHA_04",
+                "hops": 4,
+                "accounts": [
+                    "RING_ALPHA_04",
+                    "RING_ALPHA_01",
+                    "RING_ALPHA_02",
+                    "RING_ALPHA_03",
+                    "RING_ALPHA_04"
+                ],
+                "volume": 1740000.0
+            },
+            {
+                "origin": "RING_BETA_01",
+                "hops": 3,
+                "accounts": [
+                    "RING_BETA_01",
+                    "RING_BETA_02",
+                    "RING_BETA_03",
+                    "RING_BETA_01"
+                ],
+                "volume": 540000.0
+            }
+        ],
+        "multi_hop_layering_chains_count": 7,
+        "sample_layering_chains": [
+            {
+                "origin": "RING_ALPHA_01",
+                "mule": "RING_ALPHA_02",
+                "destination": "RING_ALPHA_03",
+                "stolen_amount": 450000.0,
+                "dispersed_amount": 440000.0
+            },
+            {
+                "origin": "RING_ALPHA_02",
+                "mule": "RING_ALPHA_03",
+                "destination": "RING_ALPHA_04",
+                "stolen_amount": 440000.0,
+                "dispersed_amount": 430000.0
+            },
+            {
+                "origin": "RING_ALPHA_03",
+                "mule": "RING_ALPHA_04",
+                "destination": "RING_ALPHA_01",
+                "stolen_amount": 430000.0,
+                "dispersed_amount": 420000.0
+            },
+            {
+                "origin": "RING_ALPHA_04",
+                "mule": "RING_ALPHA_01",
+                "destination": "RING_ALPHA_02",
+                "stolen_amount": 420000.0,
+                "dispersed_amount": 450000.0
+            },
+            {
+                "origin": "RING_BETA_01",
+                "mule": "RING_BETA_02",
+                "destination": "RING_BETA_03",
+                "stolen_amount": 185000.0,
+                "dispersed_amount": 180000.0
+            },
+            {
+                "origin": "RING_BETA_02",
+                "mule": "RING_BETA_03",
+                "destination": "RING_BETA_01",
+                "stolen_amount": 180000.0,
+                "dispersed_amount": 175000.0
+            },
+            {
+                "origin": "RING_BETA_03",
+                "mule": "RING_BETA_01",
+                "destination": "RING_BETA_02",
+                "stolen_amount": 175000.0,
+                "dispersed_amount": 185000.0
+            }
+        ]
+    }
+}
