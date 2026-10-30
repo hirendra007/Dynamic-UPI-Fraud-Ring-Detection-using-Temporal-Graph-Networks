@@ -40,6 +40,23 @@ def main():
     print(f"[*] Connecting to Neo4j at {uri}...")
     driver = GraphDatabase.driver(uri, auth=(user, password))
 
+    # Resilient connection check: wait for Neo4j JVM to complete initialization
+    connected = False
+    for attempt in range(1, 11):
+        try:
+            with driver.session() as test_session:
+                test_session.run("RETURN 1 AS test").single()
+            connected = True
+            print(f"[+] Successfully connected to Neo4j on attempt {attempt}!")
+            break
+        except Exception as e:
+            print(f"[!] Neo4j is still initializing (attempt {attempt}/10)... waiting 3s: {e}")
+            time.sleep(3)
+
+    if not connected:
+        print("[ERROR] Could not connect to Neo4j after 10 attempts. Ensure Docker container is running.")
+        sys.exit(1)
+
     with driver.session() as session:
         # 1. Total Graph Statistics
         print("\n[*] Querying Graph Summary Statistics...")

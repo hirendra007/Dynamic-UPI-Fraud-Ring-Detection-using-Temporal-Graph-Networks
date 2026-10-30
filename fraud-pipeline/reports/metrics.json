@@ -20,7 +20,7 @@
         "model_type": "Spark MLlib RandomForestClassifier",
         "num_trees": 100,
         "max_depth": 10,
-        "training_duration_seconds": 182.04,
+        "training_duration_seconds": 197.15,
         "area_under_roc": 0.9483,
         "area_under_pr": 0.701,
         "precision": 0.5205,

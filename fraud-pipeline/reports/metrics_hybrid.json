@@ -1,0 +1,42 @@
+{
+    "model_type": "Spark MLlib RandomForestClassifier with SMOTEENN & Cost-Sensitive Weighting",
+    "resampling_strategy": "imblearn SMOTEENN (SMOTE sampling_strategy=0.2, k_neighbors=5; ENN sampling_strategy='majority', n_neighbors=3)",
+    "training_samples_after_resampling": 207505,
+    "fraud_weight": 4.7233,
+    "legit_weight": 1.0,
+    "optimal_threshold": 0.54,
+    "cost_function": "sum(Amount of missed frauds) + 5.0 * (number of false positives)",
+    "validation_min_cost": 2338.36,
+    "test_evaluation": {
+        "area_under_roc": 0.9644,
+        "area_under_pr": 0.7077,
+        "precision": 0.5952,
+        "recall": 0.7895,
+        "f1_score": 0.6787,
+        "true_positives": 75,
+        "false_positives": 51,
+        "false_negatives": 20,
+        "true_negatives": 56600,
+        "missed_fraud_amount": 991.62,
+        "false_positive_overhead": 255.0,
+        "expected_monetary_loss": 1246.62
+    },
+    "baseline_comparison": {
+        "model_type": "Spark MLlib RandomForestClassifier (Baseline SMOTE 1:1)",
+        "threshold": 0.5,
+        "area_under_roc": 0.9483,
+        "area_under_pr": 0.7482,
+        "precision": 0.5205,
+        "recall": 0.8,
+        "f1_score": 0.6307,
+        "true_positives": 76,
+        "false_positives": 70,
+        "false_negatives": 19,
+        "true_negatives": 56581,
+        "missed_fraud_amount": 979.99,
+        "false_positive_overhead": 350.0,
+        "expected_monetary_loss": 1329.99,
+        "monetary_savings_with_hybrid": 83.37,
+        "monetary_savings_percent": 6.27
+    }
+}

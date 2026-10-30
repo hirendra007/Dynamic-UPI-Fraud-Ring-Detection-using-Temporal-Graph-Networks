@@ -93,9 +93,17 @@ def run_phase1():
         return False
     return True
 
-def run_phase2():
-    print_banner("RUNNING PHASE 2: ML MODEL TRAINING")
-    return run_command([PYTHON_BIN, str(SCRIPTS_DIR / "03_train_mllib_model.py")], "03 Spark MLlib Training & Eval")
+def run_phase2b():
+    print_banner("RUNNING PHASE 2b: HYBRID SMOTEENN & COST-SENSITIVE MODEL")
+    return run_command([PYTHON_BIN, str(SCRIPTS_DIR / "03b_train_hybrid.py")], "03b Hybrid Model Training & Evaluation")
+
+def run_phase4b():
+    print_banner("RUNNING PHASE 4b: GRAPH RISK SCORE & CENTRALITY RANKING")
+    return run_command([PYTHON_BIN, str(SCRIPTS_DIR / "compute_graph_risk.py")], "Compute Top 20 Graph Risk Scores")
+
+def run_dashboard():
+    print_banner("BUILDING EXECUTIVE LIVE DASHBOARD & SCREENSHOT")
+    return run_command([PYTHON_BIN, str(SCRIPTS_DIR / "build_dashboard.py")], "Build Live Dashboard & Capture Screenshot")
 
 def run_phase3():
     print_banner("RUNNING PHASE 3: STREAMING INFRASTRUCTURE")
@@ -106,14 +114,19 @@ def run_phase3():
 
 def run_phase4(uri="bolt://localhost:7687", password="fraudpassword123"):
     print_banner("RUNNING PHASE 4: GRAPH DB EXTENSION")
-    return run_command([
+    ok = run_command([
         PYTHON_BIN, str(SCRIPTS_DIR / "06_load_to_neo4j.py"),
         "--uri", uri, "--password", password
     ], "06 PaySim Graph ETL into Neo4j")
+    if ok:
+        return run_command([
+            PYTHON_BIN, str(SCRIPTS_DIR / "execute_cypher_analytics.py")
+        ], "07 Cypher Fraud Ring Analytics")
+    return False
 
 def main():
     parser = argparse.ArgumentParser(description="Master Pipeline Runner")
-    parser.add_argument("action", choices=["check-env", "phase1", "phase2", "phase3", "phase4", "all"],
+    parser.add_argument("action", choices=["check-env", "phase1", "phase2", "phase2b", "phase3", "phase4", "phase4b", "dashboard", "all"],
                         default="check-env", nargs="?", help="Action or phase to execute")
     args = parser.parse_args()
 
@@ -123,10 +136,16 @@ def main():
         run_phase1()
     elif args.action == "phase2":
         run_phase2()
+    elif args.action == "phase2b":
+        run_phase2b()
     elif args.action == "phase3":
         run_phase3()
     elif args.action == "phase4":
         run_phase4()
+    elif args.action == "phase4b":
+        run_phase4b()
+    elif args.action == "dashboard":
+        run_dashboard()
     elif args.action == "all":
         check_env()
         if run_phase1():
