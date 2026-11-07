@@ -83,10 +83,19 @@ st.markdown("---")
 left_col, right_col = st.columns([7, 5])
 
 with left_col:
-    st.subheader("🕸️ Multi-Hop Circular Fraud Rings & Mule Topology")
-    ring_img_path = FIGURES_DIR / "neo4j_fraud_ring.png"
-    if ring_img_path.exists():
-        st.image(str(ring_img_path), caption="Neo4j Fraud Ring & Mule Network (PaySim Graph: 96,419 Nodes, 50,007 Edges)", use_column_width=True)
+    st.subheader("🕸️ Interactive Topology Explorer (Draggable, Movable & Zoomable)")
+    st.caption("Drag nodes to inspect clustering &bull; Scroll to zoom &bull; Click buttons to highlight circular loops")
+    
+    explorer_path = BASE_DIR / "graph_explorer.html"
+    if explorer_path.exists():
+        with open(explorer_path, "r", encoding="utf-8") as f:
+            explorer_html = f.read()
+        import streamlit.components.v1 as components
+        components.html(explorer_html, height=520, scrolling=False)
+    else:
+        ring_img_path = FIGURES_DIR / "neo4j_fraud_ring.png"
+        if ring_img_path.exists():
+            st.image(str(ring_img_path), caption="Neo4j Fraud Ring & Mule Network (PaySim Graph: 96,419 Nodes, 50,007 Edges)", use_column_width=True)
 
     st.subheader("🏆 Top 20 High-Risk Entities (Graph Risk Score Ranking)")
     st.caption("Formula: 0.4 × Ring + 0.3 × PageRank + 0.3 × In-Degree")

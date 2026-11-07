@@ -93,6 +93,10 @@ def run_phase1():
         return False
     return True
 
+def run_phase2():
+    print_banner("RUNNING PHASE 2: SPARK MLLIB RANDOM FOREST (BASELINE)")
+    return run_command([PYTHON_BIN, str(SCRIPTS_DIR / "03_train_mllib_model.py")], "03 Spark MLlib Model Training & Evaluation")
+
 def run_phase2b():
     print_banner("RUNNING PHASE 2b: HYBRID SMOTEENN & COST-SENSITIVE MODEL")
     return run_command([PYTHON_BIN, str(SCRIPTS_DIR / "03b_train_hybrid.py")], "03b Hybrid Model Training & Evaluation")
@@ -104,6 +108,14 @@ def run_phase4b():
 def run_dashboard():
     print_banner("BUILDING EXECUTIVE LIVE DASHBOARD & SCREENSHOT")
     return run_command([PYTHON_BIN, str(SCRIPTS_DIR / "build_dashboard.py")], "Build Live Dashboard & Capture Screenshot")
+
+def run_graph_explorer():
+    print_banner("LAUNCHING INTERACTIVE GRAPH EXPLORER")
+    html_path = BASE_DIR / "graph_explorer.html"
+    import webbrowser
+    print(f"[*] Opening {html_path.resolve()} in default browser...")
+    webbrowser.open(html_path.resolve().as_uri())
+    return True
 
 def run_phase3():
     print_banner("RUNNING PHASE 3: STREAMING INFRASTRUCTURE")
@@ -126,7 +138,7 @@ def run_phase4(uri="bolt://localhost:7687", password="fraudpassword123"):
 
 def main():
     parser = argparse.ArgumentParser(description="Master Pipeline Runner")
-    parser.add_argument("action", choices=["check-env", "phase1", "phase2", "phase2b", "phase3", "phase4", "phase4b", "dashboard", "all"],
+    parser.add_argument("action", choices=["check-env", "phase1", "phase2", "phase2b", "phase3", "phase4", "phase4b", "dashboard", "graph-explorer", "all"],
                         default="check-env", nargs="?", help="Action or phase to execute")
     args = parser.parse_args()
 
@@ -146,6 +158,8 @@ def main():
         run_phase4b()
     elif args.action == "dashboard":
         run_dashboard()
+    elif args.action == "graph-explorer":
+        run_graph_explorer()
     elif args.action == "all":
         check_env()
         if run_phase1():

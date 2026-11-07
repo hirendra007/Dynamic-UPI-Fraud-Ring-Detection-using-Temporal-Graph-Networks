@@ -277,12 +277,12 @@ Throughout Phase 1, Phase 2, and Phase 3, all processed and flagged data is stor
 
 ---
 
-### Step 9: `build_dashboard.py`, `dashboard.html`, and `dashboard_app.py` — Executive Live Dashboard
+### Step 9: `build_dashboard.py`, `dashboard.html`, `graph_explorer.html`, and `dashboard_app.py` — Executive Live Dashboard & Interactive Graph Explorer
 * **What it does:**
-  - Compiles a responsive, self-contained HTML dashboard [`dashboard.html`](file:///d:/VS%20code/college/big_data/Dynamic-UPI-Fraud-Ring-Detection-using-Temporal-Graph-Networks/dashboard.html) reading dynamically from metrics files and graph risk outputs.
-  - Features: 6 live KPI cards, rendered vector graph highlighting 4-hop and 3-hop cycles with pulse effects, Top 20 Graph Risk table with progress indicators, side-by-side Baseline vs. Hybrid confusion matrices, and validation threshold cost curves.
-  - Executes headless browser rendering to capture full-page high-resolution screenshot at [`reports/figures/dashboard_live.png`](file:///d:/VS%20code/college/big_data/Dynamic-UPI-Fraud-Ring-Detection-using-Temporal-Graph-Networks/reports/figures/dashboard_live.png).
-  - Also provides [`dashboard_app.py`](file:///d:/VS%20code/college/big_data/Dynamic-UPI-Fraud-Ring-Detection-using-Temporal-Graph-Networks/dashboard_app.py) for interactive Streamlit exploration.
+  - **Dynamic Embedded Graph Canvas:** The main dashboard [`dashboard.html`](file:///d:/VS%20code/college/big_data/Dynamic-UPI-Fraud-Ring-Detection-using-Temporal-Graph-Networks/dashboard.html) embeds an interactive, physics-enabled force-directed graph canvas powered by `vis-network` (with local offline fallback). Users can drag nodes, zoom with the mouse wheel, pan across clusters, and toggle quick highlight filters (Alpha Ring, Beta Ring, Mule Hubs).
+  - **Standalone Fullscreen Explorer ([`graph_explorer.html`](file:///d:/VS%20code/college/big_data/Dynamic-UPI-Fraud-Ring-Detection-using-Temporal-Graph-Networks/graph_explorer.html)):** A dedicated full-page interactive graph console equipped with node inspection drawers, live account search, physics freeze/unfreeze toggles, and degree centrality telemetry.
+  - **Interactive Streamlit App ([`dashboard_app.py`](file:///d:/VS%20code/college/big_data/Dynamic-UPI-Fraud-Ring-Detection-using-Temporal-Graph-Networks/dashboard_app.py)):** Embeds the interactive topology explorer and data tables directly into a Streamlit web app.
+  - **Automated Publication Screenshot:** Automatically captures a full-page high-resolution screenshot at [`reports/figures/dashboard_live.png`](file:///d:/VS%20code/college/big_data/Dynamic-UPI-Fraud-Ring-Detection-using-Temporal-Graph-Networks/reports/figures/dashboard_live.png) via headless Microsoft Edge/Chrome.
 
 ---
 
@@ -338,6 +338,9 @@ docker start fraud-neo4j-db fraud-kafka-broker
 
 # 8. Build Live Executive Dashboard & Capture Screenshot
 .\.venv\Scripts\python.exe run_pipeline.py dashboard
+
+# 9. Launch Standalone Interactive Graph Explorer in Browser
+.\.venv\Scripts\python.exe run_pipeline.py graph-explorer
 ```
 
 ### Option B: Running the Streamlit Dashboard Live

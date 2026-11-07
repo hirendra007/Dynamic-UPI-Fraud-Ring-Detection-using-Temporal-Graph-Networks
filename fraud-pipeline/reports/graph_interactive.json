@@ -1,0 +1,2920 @@
+{
+  "nodes": [
+    {
+      "id": "RING_BETA_02",
+      "label": "BETA_02",
+      "full_id": "RING_BETA_02",
+      "group": "ring_beta",
+      "risk_score": 0.6154,
+      "profile": "Syndicate Member (Beta 3-Hop Ring)",
+      "in_degree": 1,
+      "out_degree": 1,
+      "color": {
+        "background": "#ffd600",
+        "border": "#000000",
+        "highlight": {
+          "background": "#fff066",
+          "border": "#000000"
+        }
+      },
+      "size": 28,
+      "shape": "dot",
+      "title": "<b>Account:</b> RING_BETA_02<br/><b>Profile:</b> Syndicate Member (Beta 3-Hop Ring)<br/><b>Graph Risk Score:</b> 0.6154<br/><b>In-Degree:</b> 1 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 2 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C694841202",
+      "label": "C69484..",
+      "full_id": "C694841202",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C694841202<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1462500732",
+      "label": "C14625..",
+      "full_id": "C1462500732",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1462500732<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C473184014",
+      "label": "C47318..",
+      "full_id": "C473184014",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C473184014<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1113882891",
+      "label": "C11138..",
+      "full_id": "C1113882891",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1113882891<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C242499554",
+      "label": "C24249..",
+      "full_id": "C242499554",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C242499554<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C260292173",
+      "label": "C26029..",
+      "full_id": "C260292173",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C260292173<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C556281798",
+      "label": "C55628..",
+      "full_id": "C556281798",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C556281798<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1195694949",
+      "label": "C11956..",
+      "full_id": "C1195694949",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1195694949<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1223831596",
+      "label": "C12238..",
+      "full_id": "C1223831596",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1223831596<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1360757205",
+      "label": "C13607..",
+      "full_id": "C1360757205",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1360757205<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "RING_BETA_03",
+      "label": "BETA_03",
+      "full_id": "RING_BETA_03",
+      "group": "ring_beta",
+      "risk_score": 0.6154,
+      "profile": "Syndicate Member (Beta 3-Hop Ring)",
+      "in_degree": 1,
+      "out_degree": 1,
+      "color": {
+        "background": "#ffd600",
+        "border": "#000000",
+        "highlight": {
+          "background": "#fff066",
+          "border": "#000000"
+        }
+      },
+      "size": 28,
+      "shape": "dot",
+      "title": "<b>Account:</b> RING_BETA_03<br/><b>Profile:</b> Syndicate Member (Beta 3-Hop Ring)<br/><b>Graph Risk Score:</b> 0.6154<br/><b>In-Degree:</b> 1 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 2 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C995263794",
+      "label": "C99526..",
+      "full_id": "C995263794",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C995263794<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C54493107",
+      "label": "C54493..",
+      "full_id": "C54493107",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C54493107<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C130020560",
+      "label": "C13002..",
+      "full_id": "C130020560",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C130020560<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1014640716",
+      "label": "C10146..",
+      "full_id": "C1014640716",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1014640716<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C647358051",
+      "label": "C64735..",
+      "full_id": "C647358051",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C647358051<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C844374854",
+      "label": "C84437..",
+      "full_id": "C844374854",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C844374854<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C724974300",
+      "label": "C72497..",
+      "full_id": "C724974300",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C724974300<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "RING_ALPHA_02",
+      "label": "ALPHA_02",
+      "full_id": "RING_ALPHA_02",
+      "group": "ring_alpha",
+      "risk_score": 0.6154,
+      "profile": "Syndicate Member (Alpha 4-Hop Ring)",
+      "in_degree": 1,
+      "out_degree": 1,
+      "color": {
+        "background": "#ff0055",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#ff3377",
+          "border": "#ffffff"
+        }
+      },
+      "size": 30,
+      "shape": "dot",
+      "title": "<b>Account:</b> RING_ALPHA_02<br/><b>Profile:</b> Syndicate Member (Alpha 4-Hop Ring)<br/><b>Graph Risk Score:</b> 0.6154<br/><b>In-Degree:</b> 1 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 2 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C2144015041",
+      "label": "C21440..",
+      "full_id": "C2144015041",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C2144015041<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C931416992",
+      "label": "C93141..",
+      "full_id": "C931416992",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C931416992<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C271732918",
+      "label": "C27173..",
+      "full_id": "C271732918",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C271732918<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1688362493",
+      "label": "C16883..",
+      "full_id": "C1688362493",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1688362493<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C655239421",
+      "label": "C65523..",
+      "full_id": "C655239421",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C655239421<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1763889280",
+      "label": "C17638..",
+      "full_id": "C1763889280",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1763889280<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1739974332",
+      "label": "C17399..",
+      "full_id": "C1739974332",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1739974332<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1877976610",
+      "label": "C18779..",
+      "full_id": "C1877976610",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1877976610<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1716349219",
+      "label": "C17163..",
+      "full_id": "C1716349219",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1716349219<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "RING_ALPHA_01",
+      "label": "ALPHA_01",
+      "full_id": "RING_ALPHA_01",
+      "group": "ring_alpha",
+      "risk_score": 0.6154,
+      "profile": "Syndicate Member (Alpha 4-Hop Ring)",
+      "in_degree": 1,
+      "out_degree": 1,
+      "color": {
+        "background": "#ff0055",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#ff3377",
+          "border": "#ffffff"
+        }
+      },
+      "size": 30,
+      "shape": "dot",
+      "title": "<b>Account:</b> RING_ALPHA_01<br/><b>Profile:</b> Syndicate Member (Alpha 4-Hop Ring)<br/><b>Graph Risk Score:</b> 0.6154<br/><b>In-Degree:</b> 1 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 2 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C45528678",
+      "label": "C45528..",
+      "full_id": "C45528678",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C45528678<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C395961032",
+      "label": "C39596..",
+      "full_id": "C395961032",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C395961032<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1582437607",
+      "label": "C15824..",
+      "full_id": "C1582437607",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1582437607<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C766950017",
+      "label": "C76695..",
+      "full_id": "C766950017",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C766950017<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C808884149",
+      "label": "C80888..",
+      "full_id": "C808884149",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C808884149<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1180478961",
+      "label": "C11804..",
+      "full_id": "C1180478961",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1180478961<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1618172489",
+      "label": "C16181..",
+      "full_id": "C1618172489",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1618172489<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C264846702",
+      "label": "C26484..",
+      "full_id": "C264846702",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C264846702<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C946725622",
+      "label": "C94672..",
+      "full_id": "C946725622",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C946725622<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1579264715",
+      "label": "C15792..",
+      "full_id": "C1579264715",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1579264715<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "RING_ALPHA_03",
+      "label": "ALPHA_03",
+      "full_id": "RING_ALPHA_03",
+      "group": "ring_alpha",
+      "risk_score": 0.6154,
+      "profile": "Syndicate Member (Alpha 4-Hop Ring)",
+      "in_degree": 1,
+      "out_degree": 1,
+      "color": {
+        "background": "#ff0055",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#ff3377",
+          "border": "#ffffff"
+        }
+      },
+      "size": 30,
+      "shape": "dot",
+      "title": "<b>Account:</b> RING_ALPHA_03<br/><b>Profile:</b> Syndicate Member (Alpha 4-Hop Ring)<br/><b>Graph Risk Score:</b> 0.6154<br/><b>In-Degree:</b> 1 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 2 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C400928034",
+      "label": "C40092..",
+      "full_id": "C400928034",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C400928034<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C610446538",
+      "label": "C61044..",
+      "full_id": "C610446538",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C610446538<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1036263854",
+      "label": "C10362..",
+      "full_id": "C1036263854",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1036263854<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1272810896",
+      "label": "C12728..",
+      "full_id": "C1272810896",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1272810896<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1286501414",
+      "label": "C12865..",
+      "full_id": "C1286501414",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1286501414<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "RING_ALPHA_04",
+      "label": "ALPHA_04",
+      "full_id": "RING_ALPHA_04",
+      "group": "ring_alpha",
+      "risk_score": 0.6154,
+      "profile": "Syndicate Member (Alpha 4-Hop Ring)",
+      "in_degree": 1,
+      "out_degree": 1,
+      "color": {
+        "background": "#ff0055",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#ff3377",
+          "border": "#ffffff"
+        }
+      },
+      "size": 30,
+      "shape": "dot",
+      "title": "<b>Account:</b> RING_ALPHA_04<br/><b>Profile:</b> Syndicate Member (Alpha 4-Hop Ring)<br/><b>Graph Risk Score:</b> 0.6154<br/><b>In-Degree:</b> 1 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 2 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C2010139287",
+      "label": "C20101..",
+      "full_id": "C2010139287",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C2010139287<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C5084328",
+      "label": "C50843..",
+      "full_id": "C5084328",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C5084328<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1020461364",
+      "label": "C10204..",
+      "full_id": "C1020461364",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1020461364<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C650657798",
+      "label": "C65065..",
+      "full_id": "C650657798",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C650657798<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C371198185",
+      "label": "C37119..",
+      "full_id": "C371198185",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C371198185<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C2128665553",
+      "label": "C21286..",
+      "full_id": "C2128665553",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C2128665553<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "RING_BETA_01",
+      "label": "BETA_01",
+      "full_id": "RING_BETA_01",
+      "group": "ring_beta",
+      "risk_score": 0.6154,
+      "profile": "Syndicate Member (Beta 3-Hop Ring)",
+      "in_degree": 1,
+      "out_degree": 1,
+      "color": {
+        "background": "#ffd600",
+        "border": "#000000",
+        "highlight": {
+          "background": "#fff066",
+          "border": "#000000"
+        }
+      },
+      "size": 28,
+      "shape": "dot",
+      "title": "<b>Account:</b> RING_BETA_01<br/><b>Profile:</b> Syndicate Member (Beta 3-Hop Ring)<br/><b>Graph Risk Score:</b> 0.6154<br/><b>In-Degree:</b> 1 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 2 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C240740352",
+      "label": "C24074..",
+      "full_id": "C240740352",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C240740352<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C1271951032",
+      "label": "C12719..",
+      "full_id": "C1271951032",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C1271951032<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C28907497",
+      "label": "C28907..",
+      "full_id": "C28907497",
+      "group": "normal",
+      "risk_score": 0.25,
+      "profile": "Origin Account",
+      "in_degree": 0,
+      "out_degree": 1,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C28907497<br/><b>Profile:</b> Origin Account<br/><b>Graph Risk Score:</b> 0.2500<br/><b>In-Degree:</b> 0 | <b>Out-Degree:</b> 1<br/><b>Total Activity:</b> 1 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C577585418",
+      "label": "C57758..",
+      "full_id": "C577585418",
+      "group": "normal",
+      "risk_score": 0.48,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C577585418<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.4800<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    },
+    {
+      "id": "C141316671",
+      "label": "C14131..",
+      "full_id": "C141316671",
+      "group": "normal",
+      "risk_score": 0.6,
+      "profile": "Smurfing Accumulator Hub (Fan-In)",
+      "in_degree": 3,
+      "out_degree": 0,
+      "color": {
+        "background": "#38bdf8",
+        "border": "#ffffff",
+        "highlight": {
+          "background": "#7dd3fc",
+          "border": "#ffffff"
+        }
+      },
+      "size": 16,
+      "shape": "dot",
+      "title": "<b>Account:</b> C141316671<br/><b>Profile:</b> Smurfing Accumulator Hub (Fan-In)<br/><b>Graph Risk Score:</b> 0.6000<br/><b>In-Degree:</b> 3 | <b>Out-Degree:</b> 0<br/><b>Total Activity:</b> 3 transfers",
+      "font": {
+        "color": "#ffffff",
+        "size": 12,
+        "face": "monospace",
+        "bold": true,
+        "strokeWidth": 2,
+        "strokeColor": "#0b1120"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "RING_BETA_02",
+      "to": "RING_BETA_03",
+      "amount": 180000.0,
+      "amount_str": "$180,000.00",
+      "ring": "RING-BETA",
+      "is_fraud": 1,
+      "color": {
+        "color": "#ffd600",
+        "highlight": "#fff066",
+        "hover": "#fff066"
+      },
+      "width": 4.0,
+      "smooth": {
+        "type": "curvedCW",
+        "roundness": 0.2
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> RING_BETA_02 &rarr; RING_BETA_03<br/><b>Amount:</b> $180,000.00<br/><b>Step:</b> 202<br/><b>Tag:</b> FRAUD",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C694841202",
+      "to": "C371198185",
+      "amount": 16955.67,
+      "amount_str": "$16,955.67",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C694841202 &rarr; C371198185<br/><b>Amount:</b> $16,955.67<br/><b>Step:</b> 161<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C473184014",
+      "to": "C141316671",
+      "amount": 85154.26,
+      "amount_str": "$85,154.26",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C473184014 &rarr; C141316671<br/><b>Amount:</b> $85,154.26<br/><b>Step:</b> 11<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1113882891",
+      "to": "C766950017",
+      "amount": 351114.23,
+      "amount_str": "$351,114.23",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1113882891 &rarr; C766950017<br/><b>Amount:</b> $351,114.23<br/><b>Step:</b> 231<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C242499554",
+      "to": "C1462500732",
+      "amount": 208670.79,
+      "amount_str": "$208,670.79",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C242499554 &rarr; C1462500732<br/><b>Amount:</b> $208,670.79<br/><b>Step:</b> 183<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C260292173",
+      "to": "C650657798",
+      "amount": 1454099.16,
+      "amount_str": "$1,454,099.16",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C260292173 &rarr; C650657798<br/><b>Amount:</b> $1,454,099.16<br/><b>Step:</b> 16<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1195694949",
+      "to": "C556281798",
+      "amount": 284421.47,
+      "amount_str": "$284,421.47",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1195694949 &rarr; C556281798<br/><b>Amount:</b> $284,421.47<br/><b>Step:</b> 35<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1223831596",
+      "to": "C1462500732",
+      "amount": 17415.13,
+      "amount_str": "$17,415.13",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1223831596 &rarr; C1462500732<br/><b>Amount:</b> $17,415.13<br/><b>Step:</b> 206<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1360757205",
+      "to": "C1877976610",
+      "amount": 134350.78,
+      "amount_str": "$134,350.78",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1360757205 &rarr; C1877976610<br/><b>Amount:</b> $134,350.78<br/><b>Step:</b> 34<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "RING_BETA_03",
+      "to": "RING_BETA_01",
+      "amount": 175000.0,
+      "amount_str": "$175,000.00",
+      "ring": "RING-BETA",
+      "is_fraud": 1,
+      "color": {
+        "color": "#ffd600",
+        "highlight": "#fff066",
+        "hover": "#fff066"
+      },
+      "width": 4.0,
+      "smooth": {
+        "type": "curvedCW",
+        "roundness": 0.2
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> RING_BETA_03 &rarr; RING_BETA_01<br/><b>Amount:</b> $175,000.00<br/><b>Step:</b> 203<br/><b>Tag:</b> FRAUD",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C995263794",
+      "to": "C1739974332",
+      "amount": 212528.06,
+      "amount_str": "$212,528.06",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C995263794 &rarr; C1739974332<br/><b>Amount:</b> $212,528.06<br/><b>Step:</b> 44<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C54493107",
+      "to": "C1180478961",
+      "amount": 119952.12,
+      "amount_str": "$119,952.12",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C54493107 &rarr; C1180478961<br/><b>Amount:</b> $119,952.12<br/><b>Step:</b> 397<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C130020560",
+      "to": "C766950017",
+      "amount": 312354.3,
+      "amount_str": "$312,354.30",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C130020560 &rarr; C766950017<br/><b>Amount:</b> $312,354.30<br/><b>Step:</b> 11<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1014640716",
+      "to": "C577585418",
+      "amount": 3008680.68,
+      "amount_str": "$3,008,680.68",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1014640716 &rarr; C577585418<br/><b>Amount:</b> $3,008,680.68<br/><b>Step:</b> 298<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C647358051",
+      "to": "C1739974332",
+      "amount": 189210.86,
+      "amount_str": "$189,210.86",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C647358051 &rarr; C1739974332<br/><b>Amount:</b> $189,210.86<br/><b>Step:</b> 11<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C844374854",
+      "to": "C141316671",
+      "amount": 10000000.0,
+      "amount_str": "$10,000,000.00",
+      "ring": "",
+      "is_fraud": 1,
+      "color": {
+        "color": "#ff0055",
+        "highlight": "#ff3377",
+        "hover": "#ff3377"
+      },
+      "width": 3.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C844374854 &rarr; C141316671<br/><b>Amount:</b> $10,000,000.00<br/><b>Step:</b> 237<br/><b>Tag:</b> FRAUD",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C724974300",
+      "to": "C556281798",
+      "amount": 1276218.61,
+      "amount_str": "$1,276,218.61",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C724974300 &rarr; C556281798<br/><b>Amount:</b> $1,276,218.61<br/><b>Step:</b> 19<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "RING_ALPHA_02",
+      "to": "RING_ALPHA_03",
+      "amount": 440000.0,
+      "amount_str": "$440,000.00",
+      "ring": "RING-ALPHA",
+      "is_fraud": 1,
+      "color": {
+        "color": "#ff0055",
+        "highlight": "#ff3377",
+        "hover": "#ff3377"
+      },
+      "width": 4.0,
+      "smooth": {
+        "type": "curvedCW",
+        "roundness": 0.2
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> RING_ALPHA_02 &rarr; RING_ALPHA_03<br/><b>Amount:</b> $440,000.00<br/><b>Step:</b> 102<br/><b>Tag:</b> FRAUD",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C931416992",
+      "to": "C1877976610",
+      "amount": 250123.05,
+      "amount_str": "$250,123.05",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C931416992 &rarr; C1877976610<br/><b>Amount:</b> $250,123.05<br/><b>Step:</b> 10<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C271732918",
+      "to": "C2128665553",
+      "amount": 588570.83,
+      "amount_str": "$588,570.83",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C271732918 &rarr; C2128665553<br/><b>Amount:</b> $588,570.83<br/><b>Step:</b> 185<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1688362493",
+      "to": "C141316671",
+      "amount": 264885.8,
+      "amount_str": "$264,885.80",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1688362493 &rarr; C141316671<br/><b>Amount:</b> $264,885.80<br/><b>Step:</b> 9<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C655239421",
+      "to": "C1763889280",
+      "amount": 410182.6,
+      "amount_str": "$410,182.60",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C655239421 &rarr; C1763889280<br/><b>Amount:</b> $410,182.60<br/><b>Step:</b> 11<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1716349219",
+      "to": "C2128665553",
+      "amount": 519539.36,
+      "amount_str": "$519,539.36",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1716349219 &rarr; C2128665553<br/><b>Amount:</b> $519,539.36<br/><b>Step:</b> 162<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "RING_ALPHA_01",
+      "to": "RING_ALPHA_02",
+      "amount": 450000.0,
+      "amount_str": "$450,000.00",
+      "ring": "RING-ALPHA",
+      "is_fraud": 1,
+      "color": {
+        "color": "#ff0055",
+        "highlight": "#ff3377",
+        "hover": "#ff3377"
+      },
+      "width": 4.0,
+      "smooth": {
+        "type": "curvedCW",
+        "roundness": 0.2
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> RING_ALPHA_01 &rarr; RING_ALPHA_02<br/><b>Amount:</b> $450,000.00<br/><b>Step:</b> 101<br/><b>Tag:</b> FRAUD",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C45528678",
+      "to": "C371198185",
+      "amount": 186922.75,
+      "amount_str": "$186,922.75",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C45528678 &rarr; C371198185<br/><b>Amount:</b> $186,922.75<br/><b>Step:</b> 204<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C395961032",
+      "to": "C2144015041",
+      "amount": 963751.04,
+      "amount_str": "$963,751.04",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C395961032 &rarr; C2144015041<br/><b>Amount:</b> $963,751.04<br/><b>Step:</b> 236<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1582437607",
+      "to": "C371198185",
+      "amount": 187684.74,
+      "amount_str": "$187,684.74",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1582437607 &rarr; C371198185<br/><b>Amount:</b> $187,684.74<br/><b>Step:</b> 44<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C808884149",
+      "to": "C556281798",
+      "amount": 187216.73,
+      "amount_str": "$187,216.73",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C808884149 &rarr; C556281798<br/><b>Amount:</b> $187,216.73<br/><b>Step:</b> 184<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1618172489",
+      "to": "C2144015041",
+      "amount": 123590.18,
+      "amount_str": "$123,590.18",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1618172489 &rarr; C2144015041<br/><b>Amount:</b> $123,590.18<br/><b>Step:</b> 12<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C264846702",
+      "to": "C1462500732",
+      "amount": 257607.21,
+      "amount_str": "$257,607.21",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C264846702 &rarr; C1462500732<br/><b>Amount:</b> $257,607.21<br/><b>Step:</b> 304<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C946725622",
+      "to": "C766950017",
+      "amount": 64134.96,
+      "amount_str": "$64,134.96",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C946725622 &rarr; C766950017<br/><b>Amount:</b> $64,134.96<br/><b>Step:</b> 180<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1579264715",
+      "to": "C1763889280",
+      "amount": 327184.38,
+      "amount_str": "$327,184.38",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1579264715 &rarr; C1763889280<br/><b>Amount:</b> $327,184.38<br/><b>Step:</b> 187<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "RING_ALPHA_03",
+      "to": "RING_ALPHA_04",
+      "amount": 430000.0,
+      "amount_str": "$430,000.00",
+      "ring": "RING-ALPHA",
+      "is_fraud": 1,
+      "color": {
+        "color": "#ff0055",
+        "highlight": "#ff3377",
+        "hover": "#ff3377"
+      },
+      "width": 4.0,
+      "smooth": {
+        "type": "curvedCW",
+        "roundness": 0.2
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> RING_ALPHA_03 &rarr; RING_ALPHA_04<br/><b>Amount:</b> $430,000.00<br/><b>Step:</b> 103<br/><b>Tag:</b> FRAUD",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C400928034",
+      "to": "C1180478961",
+      "amount": 132443.89,
+      "amount_str": "$132,443.89",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C400928034 &rarr; C1180478961<br/><b>Amount:</b> $132,443.89<br/><b>Step:</b> 187<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C610446538",
+      "to": "C1877976610",
+      "amount": 600973.42,
+      "amount_str": "$600,973.42",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C610446538 &rarr; C1877976610<br/><b>Amount:</b> $600,973.42<br/><b>Step:</b> 130<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1036263854",
+      "to": "C2128665553",
+      "amount": 5767.03,
+      "amount_str": "$5,767.03",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1036263854 &rarr; C2128665553<br/><b>Amount:</b> $5,767.03<br/><b>Step:</b> 8<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1272810896",
+      "to": "C577585418",
+      "amount": 399970.6,
+      "amount_str": "$399,970.60",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1272810896 &rarr; C577585418<br/><b>Amount:</b> $399,970.60<br/><b>Step:</b> 13<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1286501414",
+      "to": "C1180478961",
+      "amount": 106467.54,
+      "amount_str": "$106,467.54",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1286501414 &rarr; C1180478961<br/><b>Amount:</b> $106,467.54<br/><b>Step:</b> 34<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "RING_ALPHA_04",
+      "to": "RING_ALPHA_01",
+      "amount": 420000.0,
+      "amount_str": "$420,000.00",
+      "ring": "RING-ALPHA",
+      "is_fraud": 1,
+      "color": {
+        "color": "#ff0055",
+        "highlight": "#ff3377",
+        "hover": "#ff3377"
+      },
+      "width": 4.0,
+      "smooth": {
+        "type": "curvedCW",
+        "roundness": 0.2
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> RING_ALPHA_04 &rarr; RING_ALPHA_01<br/><b>Amount:</b> $420,000.00<br/><b>Step:</b> 104<br/><b>Tag:</b> FRAUD",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C2010139287",
+      "to": "C1763889280",
+      "amount": 127308.26,
+      "amount_str": "$127,308.26",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C2010139287 &rarr; C1763889280<br/><b>Amount:</b> $127,308.26<br/><b>Step:</b> 44<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C5084328",
+      "to": "C650657798",
+      "amount": 1483458.26,
+      "amount_str": "$1,483,458.26",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C5084328 &rarr; C650657798<br/><b>Amount:</b> $1,483,458.26<br/><b>Step:</b> 15<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1020461364",
+      "to": "C2144015041",
+      "amount": 59835.0,
+      "amount_str": "$59,835.00",
+      "ring": "",
+      "is_fraud": 1,
+      "color": {
+        "color": "#ff0055",
+        "highlight": "#ff3377",
+        "hover": "#ff3377"
+      },
+      "width": 3.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1020461364 &rarr; C2144015041<br/><b>Amount:</b> $59,835.00<br/><b>Step:</b> 10<br/><b>Tag:</b> FRAUD",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "RING_BETA_01",
+      "to": "RING_BETA_02",
+      "amount": 185000.0,
+      "amount_str": "$185,000.00",
+      "ring": "RING-BETA",
+      "is_fraud": 1,
+      "color": {
+        "color": "#ffd600",
+        "highlight": "#fff066",
+        "hover": "#fff066"
+      },
+      "width": 4.0,
+      "smooth": {
+        "type": "curvedCW",
+        "roundness": 0.2
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> RING_BETA_01 &rarr; RING_BETA_02<br/><b>Amount:</b> $185,000.00<br/><b>Step:</b> 201<br/><b>Tag:</b> FRAUD",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C240740352",
+      "to": "C650657798",
+      "amount": 197395.79,
+      "amount_str": "$197,395.79",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C240740352 &rarr; C650657798<br/><b>Amount:</b> $197,395.79<br/><b>Step:</b> 11<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C1271951032",
+      "to": "C577585418",
+      "amount": 329144.21,
+      "amount_str": "$329,144.21",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C1271951032 &rarr; C577585418<br/><b>Amount:</b> $329,144.21<br/><b>Step:</b> 14<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    },
+    {
+      "from": "C28907497",
+      "to": "C1739974332",
+      "amount": 2567.14,
+      "amount_str": "$2,567.14",
+      "ring": "",
+      "is_fraud": 0,
+      "color": {
+        "color": "#94a3b8",
+        "highlight": "#cbd5e1",
+        "hover": "#cbd5e1",
+        "opacity": 0.85
+      },
+      "width": 2.0,
+      "smooth": {
+        "type": "continuous"
+      },
+      "dashes": false,
+      "title": "<b>Transfer:</b> C28907497 &rarr; C1739974332<br/><b>Amount:</b> $2,567.14<br/><b>Step:</b> 11<br/><b>Tag:</b> LEGIT",
+      "arrows": {
+        "to": {
+          "enabled": true,
+          "scaleFactor": 1.0
+        }
+      }
+    }
+  ],
+  "stats": {
+    "total_nodes": 59,
+    "total_edges": 46,
+    "rings_highlighted": [
+      "RING-ALPHA (4-Hop)",
+      "RING-BETA (3-Hop)"
+    ],
+    "hub_accounts_count": 0
+  }
+}

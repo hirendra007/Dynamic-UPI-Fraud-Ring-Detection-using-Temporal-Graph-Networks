@@ -167,39 +167,47 @@ def main():
         for e in edges:
             G.add_edge(e["src"], e["target"], amount=e["amount"], isFraud=True)
 
-        # Plot NetworkX Directed Graph
-        fig, ax = plt.subplots(figsize=(12, 9), facecolor='#0e1117')
-        pos = nx.spring_layout(G, k=0.7, seed=42)
+        # Plot NetworkX Directed Graph with High-Visibility Palette
+        fig, ax = plt.subplots(figsize=(13, 9.5), facecolor='#0b1120')
+        pos = nx.spring_layout(G, k=0.75, seed=42)
 
-        # Draw nodes (Hubs in Gold, Mules in Orange, Victims in Crimson)
+        # High-contrast node coloring:
+        # - Hubs: Vivid Electric Cyan (#00f0ff)
+        # - Ring Members / Severe Fraud: Neon Crimson (#ff0055)
+        # - Transit Mules: Electric Gold (#ffd600)
+        # - Origin / Feeders: Sky Blue (#38bdf8)
         node_degrees = dict(G.degree())
         node_colors = []
         for node in G.nodes():
             in_d = G.in_degree(node)
             out_d = G.out_degree(node)
-            if in_d > 0 and out_d > 0:
-                node_colors.append('#f39c12') # Transit Mule
-            elif in_d > 1:
-                node_colors.append('#e74c3c') # Accumulator Hub
+            if "ALPHA" in node or "BETA" in node:
+                node_colors.append('#ff0055') # Circular Ring Node
+            elif in_d >= 4:
+                node_colors.append('#00f0ff') # Smurfing Accumulator Hub
+            elif in_d > 0 and out_d > 0:
+                node_colors.append('#ffd600') # Transit Mule
             else:
-                node_colors.append('#3498db') # Origin / Disperser
+                node_colors.append('#38bdf8') # Origin / Counterparty Account
 
-        nx.draw_networkx_nodes(G, pos, node_size=350, node_color=node_colors, edgecolors='#ffffff', linewidths=1.2, ax=ax)
-        nx.draw_networkx_edges(G, pos, edge_color='#7f8c8d', width=1.5, alpha=0.7, arrows=True, arrowsize=14, ax=ax)
+        nx.draw_networkx_nodes(G, pos, node_size=420, node_color=node_colors, edgecolors='#ffffff', linewidths=1.8, ax=ax)
+        nx.draw_networkx_edges(G, pos, edge_color='#94a3b8', width=2.0, alpha=0.85, arrows=True, arrowsize=16,
+                               arrowstyle='-|>', connectionstyle='arc3,rad=0.08', ax=ax)
 
-        # Labels for top hubs
-        top_nodes = sorted(node_degrees.items(), key=lambda x: x[1], reverse=True)[:10]
-        labels = {n: f"{n[:6]}.." for n, _ in top_nodes}
-        nx.draw_networkx_labels(G, pos, labels, font_size=8, font_color='white', font_weight='bold', ax=ax)
+        # Labels for top hubs and rings with high-visibility contrast
+        top_nodes = sorted(node_degrees.items(), key=lambda x: x[1], reverse=True)[:14]
+        labels = {n: (n if ("ALPHA" in n or "BETA" in n) else f"{n[:6]}..") for n, _ in top_nodes}
+        nx.draw_networkx_labels(G, pos, labels, font_size=9, font_color='#ffffff', font_weight='bold', font_family='sans-serif', ax=ax)
 
-        # Legend
-        ax.plot([], [], 'o', color='#3498db', label='Origin Accounts (Victim / Source)')
-        ax.plot([], [], 'o', color='#f39c12', label='Transit Mule Nodes (Layering Hubs)')
-        ax.plot([], [], 'o', color='#e74c3c', label='Accumulation Hubs (Cash-Out Mules)')
-        ax.legend(loc='upper right', facecolor='#1e222d', edgecolor='#4b5563', labelcolor='white', fontsize=10)
+        # High-Contrast Legend
+        ax.plot([], [], 'o', color='#ff0055', markeredgecolor='#ffffff', markeredgewidth=1.5, markersize=10, label='Circular Fraud Ring Member (Alpha & Beta)')
+        ax.plot([], [], 'o', color='#00f0ff', markeredgecolor='#ffffff', markeredgewidth=1.5, markersize=10, label='Smurfing Accumulator Hub (Fan-In Mule)')
+        ax.plot([], [], 'o', color='#ffd600', markeredgecolor='#ffffff', markeredgewidth=1.5, markersize=10, label='Transit Mule Intermediary (Layering)')
+        ax.plot([], [], 'o', color='#38bdf8', markeredgecolor='#ffffff', markeredgewidth=1.5, markersize=10, label='Origin / Counterparty Account')
+        ax.legend(loc='upper right', facecolor='#111827', edgecolor='#374151', labelcolor='#f3f4f6', fontsize=10, framealpha=0.95)
 
-        ax.set_title("Neo4j Fraud Ring & Multi-Hop Mule Network Topology\n(PaySim Financial Transaction Graph)",
-                     color='white', fontsize=14, fontweight='bold', pad=15)
+        ax.set_title("Neo4j Fraud Ring & Multi-Hop Mule Network Topology\n(High-Contrast Topology: 96,419 Entities & 50,007 Transactions)",
+                     color='#ffffff', fontsize=14, fontweight='bold', pad=18)
         ax.axis('off')
         plt.tight_layout()
 
